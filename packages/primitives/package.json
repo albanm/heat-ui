@@ -1,0 +1,26 @@
+{
+  "name": "@heat-ui/primitives",
+  "version": "0.1.0",
+  "description": "Primitives to manage stacked matrices of energy levels that we call planes and render them to a canvas element.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --outFile dist/index.js -d src/index.ts",
+    "lint": "eslint --ext .js,.ts src",
+    "lint-fix": "eslint --fix --ext .js,.ts src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alban Mouton <alban.mouton@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.13.0",
+    "@typescript-eslint/parser": "^4.13.0",
+    "eslint": "^7.18.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "typescript": "^4.1.3"
+  }
+}

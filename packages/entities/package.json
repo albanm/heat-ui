@@ -1,0 +1,11 @@
+{
+  "name": "@heat/entities",
+  "version": "0.1.0",
+  "description": "Entities exist in one or multiple planes of the universe and interact with them using @heat/primitives. They are typed using fitting metaphores like Star, BlackHole, SpaceCraft, etc. Entity types can be added to fit more use-cases.",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alban Mouton <alban.mouton@gmail.com>",
+  "license": "MIT"
+}
